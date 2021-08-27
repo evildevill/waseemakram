@@ -1,6 +1,6 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
 /*==================== VARIABLES CSS ====================*/
 :root {
     --header-height: 3rem;
@@ -24,7 +24,7 @@
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
     /*========== Font and typography ==========*/
-    --body-font: 'Teko', sans-serif;
+    --body-font: cursive;
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --big-font-size: 2rem;
@@ -113,7 +113,8 @@ html{
 
 body{
    margin: 0 0 var(--header-height) 0;
-   font-family: var(--body-font);
+   /* font-family: var(--body-color); */
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-style: var(--normal-font-size);
    background-color: var(--body-color);
    color: var(--text-color);
@@ -925,7 +926,7 @@ img{
 .footer__links{
    display: flex;
    flex-direction: column;
-   row-gap: 1.5rem;
+   row-gap: 0.8rem;
 }
 
 .footer__links:hover{
@@ -938,7 +939,8 @@ img{
 }
 
 .footer__social:hover{
-   color: var(--first-color-lighter);
+   /* color: var(--first-color-lighter); */
+   color: crimson;
 }
 
 .footer__copy{
@@ -946,6 +948,7 @@ img{
    text-align: center;
    color: var(--text-color-light);
    margin-top: var(--mb-3);
+   color: #FFF;
 }
 
 .footer__title,
@@ -1014,7 +1017,7 @@ img{
    }
    
    .home__content{
-      grid-template-column: .25fr 3fr;
+      grid-template-columns: .25fr 3fr;
    }
    
    .home__blob{
@@ -1155,9 +1158,9 @@ img{
    .home__scroll{
       display: block;
    }
-   .home__scroll-button{
+   /* .home__scroll-button{
    }
-   
+    */
    .about__container{
       column-gap: 5rem;
    }
