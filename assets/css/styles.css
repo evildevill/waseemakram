@@ -1158,9 +1158,9 @@ img{
    .home__scroll{
       display: block;
    }
-   /* .home__scroll-button{
+    .home__scroll-button{
    }
-    */
+    
    .about__container{
       column-gap: 5rem;
    }
@@ -1244,7 +1244,7 @@ img{
    }
 }
 
-/* For large devices 
+# For large devices 
 @media screen and (max-width: 1024px){
    .header,
    .main,
@@ -1285,4 +1285,4 @@ img{
    .contact__inputs{
       grid-template-columns: repeat(2, 1fr);
    }
-} */
+} 
