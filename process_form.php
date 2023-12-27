@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST["message"];
 
     // You can customize the email content and recipient
-    $to = "email@example.com";
+    $to = "support@hackerwasii.com";
     $subject = "New Contact Form Submission";
     $message_body = "Name: $name\nEmail: $email\nProject: $project\nMessage:\n$message";
 
